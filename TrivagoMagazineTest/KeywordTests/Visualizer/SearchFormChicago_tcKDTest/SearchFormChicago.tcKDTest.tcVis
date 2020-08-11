@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{CB0C5D73-3CE1-4067-AD52-9E17204CBB08}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="44054.5241898148" objectName="Aliases.browser.pageTrivagoMagazine.header.panel4.panel22" objectLeft="1732" objectTop="123" objectRight="1757" objectBottom="148" clickPointX="1742" clickPointY="138" imageFileName="tcvi1081675013080.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="44054.524224537" objectName="Aliases.browser.pageTrivagoMagazine.header.panel4.textbox" objectLeft="748" objectTop="213" objectRight="1796" objectBottom="265" clickPointX="-1" clickPointY="-1" imageFileName="tcvi1082006213082.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="0" dateTime="44054.5242592593" objectName="Aliases.browser.pageTrivagoMagazine.header.panel4.textbox" objectLeft="748" objectTop="213" objectRight="1796" objectBottom="265" clickPointX="-1" clickPointY="-1" imageFileName="tcvi10820062130821.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

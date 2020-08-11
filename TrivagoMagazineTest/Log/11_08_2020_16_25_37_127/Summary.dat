@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The script execution was interrupted."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="Unable to verify a value with the property checkpoint, because the target object does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAzAEYAMgBCADUARAAxADcALQBBADEANQBGAC0ANABCAEUANAAtADgAMAA3AEQALQA1ADgARgAyADkAQwBGADMAOQA0ADEAOAB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwAAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="duration" type="I" value="11184"/>
+						<Prp name="starttime" type="D" value="44054.6844611111"/>
+						<Prp name="durationwithoutchildren" type="I" value="11184"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="name" type="S" value="Test contact form"/>
+					</Node>
+				</Node>
+				<Prp name="duration" type="I" value="11184"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="44054.6844611111"/>
+				<Prp name="failedtests" type="I" value="1"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="TrivagoMagazineTest"/>
+			</Node>
+		</Node>
+		<Prp name="host" type="S" value="DESKTOP-LTGDID3"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="key" type="S" value="{4BC0AEDB-D4BB-44A9-9D3B-04FD4E1F1143}"/>
+		<Prp name="testname" type="S" value="Test contact form"/>
+		<Prp name="failedtests" type="I" value="1"/>
+		<Prp name="stop" type="D" value="44054.6845927315"/>
+		<Prp name="starttime" type="D" value="44054.6844575347"/>
+		<Prp name="name" type="S" value="TrivagoMagazineTest"/>
+		<Prp name="user" type="S" value="DiTheGrey"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+	</Node>
+</Nodes>

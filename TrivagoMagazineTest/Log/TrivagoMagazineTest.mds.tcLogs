@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6294754861"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{4A71B7AC-CC96-482E-8AAD-E705B46BAB53}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [Test1]"/>
+				<Prp name="relpath" type="S" value="11_08_2020_15_06_26_682\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6304111227"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{C6878942-A1D6-45FA-89DF-F09EDBDACB49}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [Test1]"/>
+				<Prp name="relpath" type="S" value="11_08_2020_15_07_47_521\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6323041435"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{5EB415C4-2327-44B9-8751-33C5D9202B02}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [Test1]"/>
+				<Prp name="relpath" type="S" value="11_08_2020_15_10_31_78\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6346124537"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{1B59BC51-B657-4BCF-95D1-6E6CDDD7A90E}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [Destinations]"/>
+				<Prp name="relpath" type="S" value="11_08_2020_15_13_50_516\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6354646181"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{056FF3BF-1ECB-4056-8970-6E83A52850EC}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [Destinations]"/>
+				<Prp name="relpath" type="S" value="11_08_2020_15_15_04_143\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6372577083"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{B4A1C372-BCEC-4BCC-8689-2150AC68F300}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [Test1]"/>
+				<Prp name="relpath" type="S" value="11_08_2020_15_17_39_66\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0006">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6381757176"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{22C1C46C-55D9-493C-81C1-CEADA16D6675}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [ContactForm]"/>
+				<Prp name="relpath" type="S" value="11_08_2020_15_18_58_382\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0007">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.638442581"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{1C3A2310-6A81-4C7E-9E79-E25A86D48A18}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [ContactForm]"/>
+				<Prp name="relpath" type="S" value="11_08_2020_15_19_21_439\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0008">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6389206366"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{09B64A79-E803-47D5-9D62-4BF9101B8405}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [ContactForm]"/>
+				<Prp name="relpath" type="S" value="11_08_2020_15_20_02_743\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0009">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6406761921"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{704B6007-7BE9-4CDC-9AC8-619D06839EDB}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [Test2]"/>
+				<Prp name="relpath" type="S" value="11_08_2020_15_22_34_423\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0010">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6415858912"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{342BCC76-12AE-496E-B3DB-00EFE829ACB9}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [Test2]"/>
+				<Prp name="relpath" type="S" value="11_08_2020_15_23_53_21\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0011">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.650111713"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{44AA877B-088F-44FB-80A6-AB684D5F99DC}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [Test1]"/>
+				<Prp name="relpath" type="S" value="11_08_2020_15_36_09_652\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0012">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6509852894"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{570CBEBC-2DBD-4764-952B-22060F30B681}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [Test1]"/>
+				<Prp name="relpath" type="S" value="11_08_2020_15_37_25_129\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0013">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6514120602"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{59F647CF-2E26-4C08-81D8-C3FE653CD303}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [Test1]"/>
+				<Prp name="relpath" type="S" value="11_08_2020_15_38_02_2\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0014">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.654730706"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{52A59414-1B59-4635-9D82-EA2843D89D93}"/>
+				<Prp name="nameofroot" type="S" value="TrivagoMagazineTest"/>
+				<Prp name="relpath" type="S" value="11_08_2020_15_42_48_733\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0015">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6558632523"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{1CD90954-2B80-4254-8750-CDCA926EF36B}"/>
+				<Prp name="nameofroot" type="S" value="TrivagoMagazineTest"/>
+				<Prp name="relpath" type="S" value="11_08_2020_15_44_26_585\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0016">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6564576389"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{E4BF6518-363E-4A15-A042-0541183619B3}"/>
+				<Prp name="nameofroot" type="S" value="TrivagoMagazineTest"/>
+				<Prp name="relpath" type="S" value="11_08_2020_15_45_17_940\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0017">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6628396528"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{FA66F7DE-FDD0-4A5B-9602-F7F5A3A42219}"/>
+				<Prp name="nameofroot" type="S" value="Contact Form"/>
+				<Prp name="relpath" type="S" value="11_08_2020_15_54_29_346\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0018">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6673523611"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{AF382B95-3849-4B18-B5CD-2F60E87F9734}"/>
+				<Prp name="nameofroot" type="S" value="Test contact form"/>
+				<Prp name="relpath" type="S" value="11_08_2020_16_00_59_244\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0019">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6760815046"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{0E1DCE57-0697-48BA-B731-F21FEA463C20}"/>
+				<Prp name="nameofroot" type="S" value="Test contact form"/>
+				<Prp name="relpath" type="S" value="11_08_2020_16_13_33_442\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0020">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6769277083"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{219A29BA-5CB8-406D-83B9-1B2C45E18373}"/>
+				<Prp name="nameofroot" type="S" value="Test contact form"/>
+				<Prp name="relpath" type="S" value="11_08_2020_16_14_46_554\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0021">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6789070023"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{B096AEF4-7C21-47FF-A65E-FA4240B5385C}"/>
+				<Prp name="nameofroot" type="S" value="Test contact form"/>
+				<Prp name="relpath" type="S" value="11_08_2020_16_17_37_565\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0022">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.679543125"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{4E3A1AFB-8DC8-4FF6-90C6-C8B4D132AC19}"/>
+				<Prp name="nameofroot" type="S" value="Test contact form"/>
+				<Prp name="relpath" type="S" value="11_08_2020_16_18_32_526\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0023">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6840629051"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{B3259EF8-BD4F-4029-9F38-953F338D5172}"/>
+				<Prp name="nameofroot" type="S" value="Test search form for &quot;Chicago&quot;"/>
+				<Prp name="relpath" type="S" value="11_08_2020_16_25_03_35\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0024">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6844574884"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8341D659-3B7D-4D18-899A-8EB9F41ED0C3}"/>
+				<Prp name="nameofroot" type="S" value="Test contact form"/>
+				<Prp name="relpath" type="S" value="11_08_2020_16_25_37_127\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0025">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6854732639"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{13B6A22F-6D97-4604-882A-C9AB0C147971}"/>
+				<Prp name="nameofroot" type="S" value="Test search form for &quot;Chicago&quot;"/>
+				<Prp name="relpath" type="S" value="11_08_2020_16_27_04_890\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0026">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6878249074"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{C2B6F19E-4F8F-4EE4-ACDA-BC0D866208D7}"/>
+				<Prp name="nameofroot" type="S" value="Test contact form"/>
+				<Prp name="relpath" type="S" value="11_08_2020_16_30_28_72\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0027">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6899678819"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{94408CC4-4F6D-4310-A5A6-B0329E7650B8}"/>
+				<Prp name="nameofroot" type="S" value="I enter details in contact form and submit it"/>
+				<Prp name="relpath" type="S" value="11_08_2020_16_33_33_225\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0028">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6901329051"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{E0CBB8D0-7F6A-468B-9A04-0D5E6A13F7CB}"/>
+				<Prp name="nameofroot" type="S" value="I enter details in contact form and submit it"/>
+				<Prp name="relpath" type="S" value="11_08_2020_16_33_47_483\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0029">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6933146181"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{2389882F-D29A-4985-8745-71919AE4E6BF}"/>
+				<Prp name="nameofroot" type="S" value="Trivago magazine website is online"/>
+				<Prp name="relpath" type="S" value="11_08_2020_16_38_22_383\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0030">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.693578669"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{75585263-C7F9-42FE-987B-AE8B5FE598EE}"/>
+				<Prp name="nameofroot" type="S" value="Test contact form"/>
+				<Prp name="relpath" type="S" value="11_08_2020_16_38_45_197\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0031">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6940099884"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{54BB29A1-3B78-4A74-AB54-C9391E0656D1}"/>
+				<Prp name="nameofroot" type="S" value="Test contact form"/>
+				<Prp name="relpath" type="S" value="11_08_2020_16_39_22_464\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0032">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6952059491"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{FD2977C7-B6E0-4A20-9ACD-FB2A78DA2A16}"/>
+				<Prp name="nameofroot" type="S" value="Test contact form"/>
+				<Prp name="relpath" type="S" value="11_08_2020_16_41_05_794\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0033">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6961565162"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{271CCFDF-5039-431C-9A94-ACC94CEE22CD}"/>
+				<Prp name="nameofroot" type="S" value="Test search form for &quot;Chicago&quot;"/>
+				<Prp name="relpath" type="S" value="11_08_2020_16_42_27_923\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0034">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6965943403"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{9E953AC5-7BF6-4573-91D7-1F8A2E22147A}"/>
+				<Prp name="nameofroot" type="S" value="search form is open"/>
+				<Prp name="relpath" type="S" value="11_08_2020_16_43_05_751\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0035">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.697077338"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{214C80C3-681C-4620-8CEB-AC47A02F8F05}"/>
+				<Prp name="nameofroot" type="S" value="search form is open"/>
+				<Prp name="relpath" type="S" value="11_08_2020_16_43_47_482\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0036">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6972343634"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{72367A0B-5F3D-411D-AA42-9DC743D694E0}"/>
+				<Prp name="nameofroot" type="S" value="Test search form for &quot;Chicago&quot;"/>
+				<Prp name="relpath" type="S" value="11_08_2020_16_44_01_49\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0037">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6980243518"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{C7B2A5A3-D496-4FC2-89F2-186096FEBBA0}"/>
+				<Prp name="nameofroot" type="S" value="Test search form for &quot;Chicago&quot;"/>
+				<Prp name="relpath" type="S" value="11_08_2020_16_45_09_305\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0038">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6985135185"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A0652EDE-A5F1-4162-9D2E-C44976FD9E41}"/>
+				<Prp name="nameofroot" type="S" value="I input &quot;Chicago&quot; into search form and submit it"/>
+				<Prp name="relpath" type="S" value="11_08_2020_16_45_51_568\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0039">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.6998347338"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{22ECA5DC-B309-4CB1-88CB-911AE6B0C22E}"/>
+				<Prp name="nameofroot" type="S" value="Test search form for &quot;Chicago&quot;"/>
+				<Prp name="relpath" type="S" value="11_08_2020_16_47_45_721\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0040">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.7006334143"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{EA21FE7A-58B2-4A4A-98DE-32E550EDB33A}"/>
+				<Prp name="nameofroot" type="S" value="Test for Destinations menu - &quot;SouthWest&quot;"/>
+				<Prp name="relpath" type="S" value="11_08_2020_16_48_54_727\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0041">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.7007377894"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A0F5B533-723D-4F29-B15D-F411EC24A497}"/>
+				<Prp name="nameofroot" type="S" value="Test search form for &quot;Chicago&quot;"/>
+				<Prp name="relpath" type="S" value="11_08_2020_16_49_03_745\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0042">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.701011493"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{FF9720E1-4E2A-4DAE-988D-3DE869FA4B17}"/>
+				<Prp name="nameofroot" type="S" value="I input &quot;Chicago&quot; into search form and submit it"/>
+				<Prp name="relpath" type="S" value="11_08_2020_16_49_27_393\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0043">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.7010890046"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{4B5EDBA8-24EC-4281-8A6E-5894AFDECDBA}"/>
+				<Prp name="nameofroot" type="S" value="Test search form for &quot;Chicago&quot;"/>
+				<Prp name="relpath" type="S" value="11_08_2020_16_49_34_90\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0044">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.7038958912"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{21F27DCF-48DD-4FEE-A801-6C99D6CB1C92}"/>
+				<Prp name="nameofroot" type="S" value="dropdown menu is open"/>
+				<Prp name="relpath" type="S" value="11_08_2020_16_53_36_605\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0045">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.7042296759"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{5A7C9956-0039-417D-9908-853BFF118F6F}"/>
+				<Prp name="nameofroot" type="S" value="dropdown menu is open"/>
+				<Prp name="relpath" type="S" value="11_08_2020_16_54_05_444\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0046">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.7049407523"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{0282A580-F9B7-4000-A3D5-38898C728C17}"/>
+				<Prp name="nameofroot" type="S" value="Test for Destinations menu - &quot;SouthWest&quot;"/>
+				<Prp name="relpath" type="S" value="11_08_2020_16_55_06_881\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0047">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.7052593171"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{B6D908E5-774D-4168-B409-E656C184B5EF}"/>
+				<Prp name="nameofroot" type="S" value="Test for Destinations menu - &quot;SouthWest&quot;"/>
+				<Prp name="relpath" type="S" value="11_08_2020_16_55_34_405\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0048">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.7069356944"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{022C6A56-3D0E-44D1-B3A2-ABC607D0393A}"/>
+				<Prp name="nameofroot" type="S" value="TrivagoMagazineTest"/>
+				<Prp name="relpath" type="S" value="11_08_2020_16_57_59_244\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0049">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="44054.7142374306"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{EC33B482-DEF9-48F2-802E-894BBD0476B5}"/>
+				<Prp name="nameofroot" type="S" value="TrivagoMagazineTest"/>
+				<Prp name="relpath" type="S" value="11_08_2020_17_08_30_114\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

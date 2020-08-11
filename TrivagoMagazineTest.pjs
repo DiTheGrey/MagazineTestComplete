@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{EA9DF569-E29E-4A0B-9715-EDDDE0F77C31}">
+	<children>
+		<child name="TrivagoMagazineTest" key="{0F70D638-8BC1-4BD6-B95A-0E5BC7F11E10}" path="TrivagoMagazineTest\TrivagoMagazineTest.mds" />
+	</children>
+	<testItems key="{434F5D4C-E7D4-484F-9E9F-4BF7BFCA0CA5}">
+		<children>
+			<testItem key="{0F70D638-8BC1-4BD6-B95A-0E5BC7F11E10}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{BFC70E1A-7C91-4D9D-9228-C093D1B5AD7A}" />
+	<analysis key="{32B83777-2EA6-4B62-B4E2-2428C776CD36}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}">
+		<CrossBrowserTesting Enable="False" />
+	</extender>
+</Root>

@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44054.5113541667"/>
+					<Prp name="image file name" type="S" value="tcvi970764013084.png"/>
+					<Prp name="object top" type="I" value="103"/>
+					<Prp name="object right" type="I" value="2560"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="1040"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTrivagoMagazine2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The action may be performed incorrectly, because the control is not visible."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44054.6373035648"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="remarks" type="S" value="Aliases.browser.pageTrivagoMagazine2"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{CF6E07F9-248B-4569-B640-EAC1ACA8A0A3}"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="message" type="S" value="Unable to verify a value with the property checkpoint, because the target object does not exist."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44054.6374727894"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="remarks" type="S" value="&lt;!doctype html&gt; &lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;style&gt;.wide{width: 100%; margin: 0; padding:0; border:0;} .clsimg{width: 200px; margin: auto; border:0} td.row1{width: *;}  td.row2{width: 250px;}&lt;/style&gt;&lt;body&gt;&lt;div class=&quot;wide&quot;&gt;&lt;table class=&quot;wide&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;td class=&quot;row1&quot;&gt;&lt;/td&gt;&lt;td class=&quot;row2&quot;&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;p&gt;Unable to find the following object when executing the &lt;code&gt;Property Checkpoint&lt;/code&gt; command:&lt;/p&gt;&lt;p style=&quot;margin-left: 10px;&quot;&gt;&lt;code&gt;Aliases.&amp;#8203;browser.&amp;#8203;pageTrivagoMagazine2.&amp;#8203;&lt;a href=&quot;lnamemapping://{24EF05A6-5503-430B-B815-DF54EDDA9F3B}.Aliases.browser.pageTrivagoMagazine2.textnode&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;textnode&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; }&lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;helpme://54Wh5r2zAQAEAHJvb3QLAAEAYgAAbwAIAGNhbGxuYW1lAQAtAEFsaWFzZXMuYnJvd3Nlci5wYWdl&#xA;VHJpdmFnb01hZ2F6aW5lMi50ZXh0bm9kZQcAcGljZmlsZQEAKgB7OTc3MURGODUtMkQwOS00MzY0&#xA;LUJDMDUtNjZEMkFCQUFCNjAwfS5wbmcCAG5tAQAkADUxNTA5NzVDeDdBOTF4NDc4Rng4ODcxeDAy&#xA;QkYyMzhBQjFGMAYAY29uZmlnAQAVAERlZmF1bHQgQ29uZmlndXJhdGlvbgkAcHJvcGNvdW50AAAC&#xA;AAcAcHJvamVjdAEAJAAyNEVGMDVBNng1NTAzeDQzMEJ4QjgxNXhERjU0RUREQTlGM0IBAHIAAAgA&#xA;BAB0eXBlAQALAFJlY29nbml0aW9uAQB0AABvAAEAbAAACAAEAAsAZm91bmR2YWx1ZXMCAAEAMAEA&#xA;IQBANTQwMDY1MDA3ODAwNzQwMDRFMDA2RjAwNjQwMDY1MDABADEBAFEAQDQ4MDA2RjAwNzcwMDIw&#xA;MDA2MzAwNkYwMDZGMDA2QjAwNjkwMDY1MDA3MzAwMjAwMDYxMDA3MjAwNjUwMDIwMDA3NTAwNzMw&#xA;MDY1MDA2NDAwAAAGAHZhbHVlcwIAAQAwAQAhAEA1NDAwNjUwMDc4MDA3NDAwNEUwMDZGMDA2NDAw&#xA;NjUwMAEAMQEAaQBANEQwMDY1MDA3MzAwNzMwMDYxMDA2NzAwNjUwMDIwMDA1MzAwNjUwMDZFMDA3&#xA;NDAwMjAwMDUzMDA3NTAwNjMwMDYzMDA2NTAwNzMwMDczMDA2NjAwNzUwMDZDMDA2QzAwNzkwMDIx&#xA;MDAAAAcAbWF0Y2hlZAIAAQAwAADvv7/nv78BADEAAAEAAAAFAG5hbWVzAgABADABAAoAT2JqZWN0&#xA;VHlwZQEAMQEACwBjb250ZW50VGV4dAAA&quot;&gt;Intelligent Fix&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;The &lt;span style=&quot;color: red;&quot;&gt;missing object&lt;/span&gt; could be absent during the test run. Check the screenshot on the &lt;a href=&quot;showpicture://pic&quot;&gt;Picture&lt;/a&gt;  tab if the object existed.&lt;/li&gt;&lt;li&gt;If the object existed, &lt;a href=&quot;lnamemapping://{24EF05A6-5503-430B-B815-DF54EDDA9F3B}.Aliases.browser.pageTrivagoMagazine2.textnode&quot;&gt;view and change&lt;/a&gt; its recognition attributes.&lt;/li&gt;&lt;li&gt;If the object didn't exist, check if earlier test steps worked correctly.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2201&quot;&gt;Learn more&lt;/a&gt; about possible causes of the error.&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;td style=&quot;vertical-align:top;text-align:center&quot;&gt; &lt;a href=&quot;showpicturedialog://%%LogDir%%\{5150975C-7A91-478F-8871-02BF238AB1F0}.png&quot;&gt; &lt;img title=&quot;The expected state of the tested application. The missing object (red frame) and the called test object (blue frame).&quot; class=&quot;clsimg&quot; src=&quot;%%LogDir%%\{5150975C-7A91-478F-8871-02BF238AB1F0}.png&quot;&gt; &lt;/a&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44054.5114699074"/>
+					<Prp name="image file name" type="S" value="tcvi971775013089.png"/>
+					<Prp name="object top" type="I" value="554"/>
+					<Prp name="object right" type="I" value="1812"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="598"/>
+					<Prp name="object left" type="I" value="1280"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTrivagoMagazine2.textboxContactEmail"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44054.5123263194"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="object top" type="I" value="554"/>
+					<Prp name="object right" type="I" value="1812"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="598"/>
+					<Prp name="object left" type="I" value="1280"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTrivagoMagazine2.textboxContactEmail"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage7_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44054.6373272685"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="remarks" type="S" value="'![ReleaseLast]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTrivagoMagazine2.textboxContactEmail&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://magazine.trivago.com.au/contact/&quot;, 0).Panel(&quot;app&quot;).Panel(&quot;nuxt&quot;).Panel(&quot;layout&quot;).Panel(&quot;app&quot;).Panel(2).Panel(0).Panel(0).Panel(0).Panel(2).Panel(1).Textbox(&quot;contact_email&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44054.5114583333"/>
+					<Prp name="image file name" type="S" value="tcvi9715906130881.png"/>
+					<Prp name="object top" type="I" value="554"/>
+					<Prp name="object right" type="I" value="1264"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="598"/>
+					<Prp name="object left" type="I" value="732"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTrivagoMagazine2.textbox"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44054.5123233102"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="object top" type="I" value="554"/>
+					<Prp name="object right" type="I" value="1264"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="598"/>
+					<Prp name="object left" type="I" value="732"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTrivagoMagazine2.textbox"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage6_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44054.6373242477"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="'[Tab]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTrivagoMagazine2.textbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://magazine.trivago.com.au/contact/&quot;, 0).Panel(&quot;app&quot;).Panel(&quot;nuxt&quot;).Panel(&quot;layout&quot;).Panel(&quot;app&quot;).Panel(2).Panel(0).Panel(0).Panel(0).Panel(2).Panel(0).Textbox(0))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="634"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44054.5116087963"/>
+					<Prp name="image file name" type="S" value="tcvi9729906130811.png"/>
+					<Prp name="object top" type="I" value="626"/>
+					<Prp name="object right" type="I" value="749"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="639"/>
+					<Prp name="object left" type="I" value="736"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTrivagoMagazine2.checkboxBySubmittingAMessageOnOu"/>
+					<Prp name="click point x" type="I" value="740"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="632"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44054.5123313426"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="object top" type="I" value="626"/>
+					<Prp name="object right" type="I" value="749"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="639"/>
+					<Prp name="object left" type="I" value="736"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTrivagoMagazine2.checkboxBySubmittingAMessageOnOu"/>
+					<Prp name="click point x" type="I" value="742"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage9_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The check box was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44054.6373331481"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="The control state has been changed to 'checked'.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTrivagoMagazine2.checkboxBySubmittingAMessageOnOu&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://magazine.trivago.com.au/contact/&quot;, 0).Panel(&quot;app&quot;).Panel(&quot;nuxt&quot;).Panel(&quot;layout&quot;).Panel(&quot;app&quot;).Panel(2).Panel(0).Panel(0).Panel(0).Panel(2).Panel(2).Checkbox(&quot;confirm&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Test1()"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44054.5113541667"/>
+					<Prp name="image file name" type="S" value="tcvi9707640130841.png"/>
+					<Prp name="object top" type="I" value="103"/>
+					<Prp name="object right" type="I" value="2560"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="1040"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTrivagoMagazine2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44054.512303912"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="object top" type="I" value="103"/>
+					<Prp name="object right" type="I" value="2560"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="1040"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTrivagoMagazine2"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage1_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44054.6373048148"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="remarks" type="S" value="'Te' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTrivagoMagazine2&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://magazine.trivago.com.au/contact/&quot;, 0))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="715"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44054.5116203704"/>
+					<Prp name="image file name" type="S" value="tcvi9731031130812.png"/>
+					<Prp name="object top" type="I" value="686"/>
+					<Prp name="object right" type="I" value="820"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="729"/>
+					<Prp name="object left" type="I" value="732"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTrivagoMagazine2.buttonSubmit"/>
+					<Prp name="click point x" type="I" value="770"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="707"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44054.512335463"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+					<Prp name="object top" type="I" value="686"/>
+					<Prp name="object right" type="I" value="820"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="729"/>
+					<Prp name="object left" type="I" value="732"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTrivagoMagazine2.buttonSubmit"/>
+					<Prp name="click point x" type="I" value="776"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage10_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44054.6373370139"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageTrivagoMagazine2.buttonSubmit&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://magazine.trivago.com.au/contact/&quot;, 0).Panel(&quot;app&quot;).Panel(&quot;nuxt&quot;).Panel(&quot;layout&quot;).Panel(&quot;app&quot;).Panel(2).Panel(0).Panel(0).Panel(0).Button(0))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 14">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="stack beginning" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="message" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44054.6374731829"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The test run has stopped because --&lt;/p&gt;&lt;ul&gt;&lt;li&gt;An error message was posted to the log and&lt;/li&gt;&lt;li&gt;The &lt;a href=&quot;aqa-help://6090&quot;&gt;On error&lt;/a&gt; project property is set to &quot;Stop project&quot; or &quot;Stop current item&quot;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you don't want the test to stop on errors, set this property (&lt;b&gt;Project Editor &amp;rArr; Properties &amp;rArr; Playback&lt;/b&gt;), to &quot;Continue running&quot; or change your test commands so that they do not post errors to the log automatically. For example, if a window or process was not found, use WaitWindow, WaitProcess or similar methods to get the needed object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2207&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44054.5113773148"/>
+					<Prp name="image file name" type="S" value="tcvi971003113086.png"/>
+					<Prp name="object top" type="I" value="299"/>
+					<Prp name="object right" type="I" value="1812"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="507"/>
+					<Prp name="object left" type="I" value="732"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTrivagoMagazine2.textarea"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44054.5123103356"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="object top" type="I" value="299"/>
+					<Prp name="object right" type="I" value="1812"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="507"/>
+					<Prp name="object left" type="I" value="732"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTrivagoMagazine2.textarea"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage3_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44054.6373159722"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="remarks" type="S" value="'Test message' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTrivagoMagazine2.textarea&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://magazine.trivago.com.au/contact/&quot;, 0).Panel(&quot;app&quot;).Panel(&quot;nuxt&quot;).Panel(&quot;layout&quot;).Panel(&quot;app&quot;).Panel(2).Panel(0).Panel(0).Panel(0).Panel(1).Panel(0).Textarea(0))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Navigating to the https://room5.trivago.com/ page."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44054.6372923958"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="URL: https://room5.trivago.com/&#xA;&#xA;Aliases.browser"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="774"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44054.5112731481"/>
+					<Prp name="image file name" type="S" value="tcvi970089013081.png"/>
+					<Prp name="object top" type="I" value="765"/>
+					<Prp name="object right" type="I" value="780"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="781"/>
+					<Prp name="object left" type="I" value="732"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTrivagoMagazine.link"/>
+					<Prp name="click point x" type="I" value="734"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="773"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44054.5122946065"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object top" type="I" value="765"/>
+					<Prp name="object right" type="I" value="780"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="781"/>
+					<Prp name="object left" type="I" value="732"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTrivagoMagazine.link"/>
+					<Prp name="click point x" type="I" value="756"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage0_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44054.6372958218"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="A click at point (24, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTrivagoMagazine.link&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://magazine.trivago.com/&quot;, 1).Panel(&quot;app&quot;).Panel(&quot;nuxt&quot;).Panel(&quot;layout&quot;).Panel(&quot;app&quot;).Panel(3).Footer(&quot;footer_main&quot;).Panel(0).Panel(2).Panel(0).Panel(1).Link(0))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="563"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44054.5114351852"/>
+					<Prp name="image file name" type="S" value="tcvi971473413087.png"/>
+					<Prp name="object top" type="I" value="554"/>
+					<Prp name="object right" type="I" value="1264"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="598"/>
+					<Prp name="object left" type="I" value="732"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTrivagoMagazine2.textbox"/>
+					<Prp name="click point x" type="I" value="863"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="563"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44054.5123198032"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="object top" type="I" value="554"/>
+					<Prp name="object right" type="I" value="1264"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="598"/>
+					<Prp name="object left" type="I" value="732"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTrivagoMagazine2.textbox"/>
+					<Prp name="click point x" type="I" value="863"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage4_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44054.6373208102"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="remarks" type="S" value="A click at point (131, 9) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTrivagoMagazine2.textbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://magazine.trivago.com.au/contact/&quot;, 0).Panel(&quot;app&quot;).Panel(&quot;nuxt&quot;).Panel(&quot;layout&quot;).Panel(&quot;app&quot;).Panel(2).Panel(0).Panel(0).Panel(0).Panel(2).Panel(0).Textbox(0))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Test1()"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="389"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44054.5113657407"/>
+					<Prp name="image file name" type="S" value="tcvi970937513085.png"/>
+					<Prp name="object top" type="I" value="299"/>
+					<Prp name="object right" type="I" value="1812"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="507"/>
+					<Prp name="object left" type="I" value="732"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTrivagoMagazine2.textarea"/>
+					<Prp name="click point x" type="I" value="919"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="389"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44054.5123083796"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="object top" type="I" value="299"/>
+					<Prp name="object right" type="I" value="1812"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="507"/>
+					<Prp name="object left" type="I" value="732"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTrivagoMagazine2.textarea"/>
+					<Prp name="click point x" type="I" value="919"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage2_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44054.6373093981"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="remarks" type="S" value="A click at point (187, 90) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageTrivagoMagazine2.textarea&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://magazine.trivago.com.au/contact/&quot;, 0).Panel(&quot;app&quot;).Panel(&quot;nuxt&quot;).Panel(&quot;layout&quot;).Panel(&quot;app&quot;).Panel(2).Panel(0).Panel(0).Panel(0).Panel(1).Panel(0).Textarea(0))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44054.5114467593"/>
+					<Prp name="image file name" type="S" value="tcvi971590613088.png"/>
+					<Prp name="object top" type="I" value="554"/>
+					<Prp name="object right" type="I" value="1264"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="598"/>
+					<Prp name="object left" type="I" value="732"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTrivagoMagazine2.textbox"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44054.5123215741"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="object top" type="I" value="554"/>
+					<Prp name="object right" type="I" value="1264"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="598"/>
+					<Prp name="object left" type="I" value="732"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTrivagoMagazine2.textbox"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage5_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'test' was entered in the text editor."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44054.637322338"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageTrivagoMagazine2.textbox&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://magazine.trivago.com.au/contact/&quot;, 0).Panel(&quot;app&quot;).Panel(&quot;nuxt&quot;).Panel(&quot;layout&quot;).Panel(&quot;app&quot;).Panel(2).Panel(0).Panel(0).Panel(0).Panel(2).Panel(0).Textbox(0))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44054.5114814815"/>
+					<Prp name="image file name" type="S" value="tcvi9717750130891.png"/>
+					<Prp name="object top" type="I" value="554"/>
+					<Prp name="object right" type="I" value="1812"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="598"/>
+					<Prp name="object left" type="I" value="1280"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTrivagoMagazine2.textboxContactEmail"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="current">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="44054.5123279745"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="object top" type="I" value="554"/>
+					<Prp name="object right" type="I" value="1812"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="598"/>
+					<Prp name="object left" type="I" value="1280"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageTrivagoMagazine2.textboxContactEmail"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="image file name" type="S" value="visImage8_Dif.png"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The text 'test@test.com' was entered in the text editor."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44054.6373288079"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageTrivagoMagazine2.textboxContactEmail&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://magazine.trivago.com.au/contact/&quot;, 0).Panel(&quot;app&quot;).Panel(&quot;nuxt&quot;).Panel(&quot;layout&quot;).Panel(&quot;app&quot;).Panel(2).Panel(0).Panel(0).Panel(0).Panel(2).Panel(1).Textbox(&quot;contact_email&quot;))"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

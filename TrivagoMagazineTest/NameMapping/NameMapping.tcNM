@@ -1,0 +1,1750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{9510136C-1042-457F-93CB-FE135A999CC1}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{5BCE0193-0333-4D3B-8B9E-F69332F1778E}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageTrivagoMagazine" Key="{B72468B9-751F-4F85-B6EB-2FFB156B8389}">
+								<Image FileName="1380220656" Left="0" Top="103" Right="2560" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://magazine.trivago.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{6190D655-CD45-41A2-BD04-0098A324A776}" ExtendedFind="True">
+										<Image FileName="1380220656" Left="0" Top="103" Right="2543" Bottom="167" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Header" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="header" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panel" Key="{A436648A-2480-4DD1-816E-B081FD310A48}" ExtendedFind="True">
+												<Image FileName="1380220656" Left="712" Top="103" Right="1832" Bottom="167" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panel" Key="{33CDEA56-AC58-4FD2-84EA-37454B503979}" ExtendedFind="True">
+														<Image FileName="1380220656" Left="771" Top="103" Right="1773" Bottom="167" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panel" Key="{E2699883-A76A-4BA1-A345-A152B0AEA09C}" ExtendedFind="True">
+																<Image FileName="1380220656" Left="779" Top="126" Right="801" Bottom="144" />
+																<TypeInfo Item0="{6BC989A7-3F64-405A-A7E4-BB251B50E79D}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="0" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panel" Key="{D45C7578-78F7-4B76-86C7-50C34EA9E5C8}" ExtendedFind="True">
+																		<Image FileName="1612748682" Left="740" Top="541" Right="1820" Bottom="2941" />
+																		<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Panel" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value Value="7" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="textnode" Key="{FC863C83-3D77-455C-BE44-6ADEDD8AD05A}">
+																				<Image FileName="1612748682" Left="740" Top="175" Right="1820" Bottom="223" />
+																				<TypeInfo Item0="{B54C1745-EB1F-40E5-AE76-DDC21E85C34C}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="TextNode" />
+																					</Property>
+																					<Property Name="contentText">
+																						<Value Value="16 Search Results" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="panelMenu" Key="{7E65ADDF-1462-4FF0-B0AA-4BD1D8F350CB}" ExtendedFind="True">
+																<Image FileName="-1221346098" Left="0" Top="167" Right="2543" Bottom="303" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																	<Property Name="idStr">
+																		<Value Value="menu" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panel" Key="{1A00FDD6-6B4A-4BC2-AEC3-FBB5636AEF6D}" ExtendedFind="True">
+																		<Image FileName="-1221346098" Left="712" Top="187" Right="1832" Bottom="283" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Panel" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="panel" Key="{E4F54F22-EB09-4E16-98C3-C03CAAE72F3A}" ExtendedFind="True">
+																				<Image FileName="-1221346098" Left="732" Top="203" Right="1812" Bottom="283" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Panel" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="panel" Key="{C958BEEB-99A2-40D3-A994-38357CDB218E}">
+																						<Image FileName="-1221346098" Left="732" Top="203" Right="1812" Bottom="235" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="Panel" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="0" Type="0" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="panel" Key="{297B477C-B0A4-4505-8457-A6561E7A0283}">
+																								<Image FileName="-1221346098" Left="732" Top="203" Right="1812" Bottom="219" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="Panel" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value Value="0" Type="0" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="panel" Key="{93C3C01B-D75A-43E7-AB9B-72E7137FAD6D}" ExtendedFind="True">
+																										<Image FileName="-1221346098" Left="732" Top="203" Right="1812" Bottom="219" />
+																										<TypeInfo Item0="{6BC989A7-3F64-405A-A7E4-BB251B50E79D}" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="Panel" />
+																											</Property>
+																											<Property Name="contentText">
+																												<Value Value="Destinations" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="panel" Key="{33681E45-C410-4DC9-B0EF-96C9C02FED76}" ExtendedFind="True">
+																												<Image FileName="-866752611" Left="732" Top="203" Right="1812" Bottom="219" />
+																												<TypeInfo Item0="{6BC989A7-3F64-405A-A7E4-BB251B50E79D}" />
+																												<Properties>
+																													<Property Name="ObjectType">
+																														<Value Value="Panel" />
+																													</Property>
+																													<Property Name="contentText">
+																														<Value Value="Destinations" />
+																													</Property>
+																												</Properties>
+																											</Child>
+																										</Children>
+																									</Child>
+																									<Child Name="panel2" Key="{475FB45D-51A0-4829-A070-A02387941298}" ExtendedFind="True">
+																										<Image FileName="-866752611" Left="732" Top="203" Right="1812" Bottom="219" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="Panel" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="panel" Key="{8913E799-A375-4661-8C7F-35AA89152255}" ExtendedFind="True">
+																												<Image FileName="-866752611" Left="732" Top="203" Right="1812" Bottom="219" />
+																												<TypeInfo Item0="{6BC989A7-3F64-405A-A7E4-BB251B50E79D}" />
+																												<Properties>
+																													<Property Name="ObjectType">
+																														<Value Value="Panel" />
+																													</Property>
+																													<Property Name="contentText">
+																														<Value Value="Destinations" />
+																													</Property>
+																												</Properties>
+																											</Child>
+																										</Children>
+																									</Child>
+																								</Children>
+																							</Child>
+																							<Child Name="panel2" Key="{916DEFBD-74D6-4A26-9477-4942F0948EEE}" ExtendedFind="True">
+																								<Image FileName="43981287" Left="732" Top="287" Right="943" Bottom="311" />
+																								<TypeInfo Item0="{6BC989A7-3F64-405A-A7E4-BB251B50E79D}" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="Panel" />
+																									</Property>
+																									<Property Name="contentText">
+																										<Value Value="Northwest" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value Value="1" Type="0" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																							<Child Name="panel3" Key="{ED8EF19D-BAF4-4BD4-935D-912C3710FC5E}" ExtendedFind="True">
+																								<Image FileName="1150964787" Left="732" Top="235" Right="1812" Bottom="363" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="Panel" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value Value="1" Type="0" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="panel" Key="{E31C7949-9993-41D5-B13E-0726892BB0CE}" ExtendedFind="True">
+																										<Image FileName="1150964787" Left="732" Top="235" Right="1812" Bottom="363" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="Panel" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="panel" Key="{C144B1DE-B4EC-442F-A04B-070C244F4479}" ExtendedFind="True">
+																												<Image FileName="1150964787" Left="732" Top="235" Right="1812" Bottom="363" />
+																												<Properties>
+																													<Property Name="ObjectType">
+																														<Value Value="Panel" />
+																													</Property>
+																													<Property Name="ObjectIdentifier">
+																														<Value Value="0" Type="0" />
+																													</Property>
+																												</Properties>
+																												<Children>
+																													<Child Name="panel" Key="{DC60EAEE-2FFC-4D52-9933-6A1ED3E7B8FD}" ExtendedFind="True">
+																														<Image FileName="1150964787" Left="966" Top="235" Right="1177" Bottom="363" />
+																														<Properties>
+																															<Property Name="ObjectType">
+																																<Value Value="Panel" />
+																															</Property>
+																															<Property Name="ObjectIdentifier">
+																																<Value Value="1" Type="0" />
+																															</Property>
+																														</Properties>
+																														<Children>
+																															<Child Name="link" Key="{C0BA74D2-BE74-44FD-B942-1CFB44C5C90F}" ExtendedFind="True">
+																																<Image FileName="1150964787" Left="966" Top="235" Right="1177" Bottom="353" />
+																																<Properties>
+																																	<Property Name="ObjectType">
+																																		<Value Value="Link" />
+																																	</Property>
+																																</Properties>
+																																<Children>
+																																	<Child Name="panel" Key="{9CC5B1AC-6443-4B50-9831-EE1902E42393}" ExtendedFind="True">
+																																		<Image FileName="1150964787" Left="966" Top="287" Right="1177" Bottom="311" />
+																																		<TypeInfo Item0="{6BC989A7-3F64-405A-A7E4-BB251B50E79D}" />
+																																		<Properties>
+																																			<Property Name="ObjectType">
+																																				<Value Value="Panel" />
+																																			</Property>
+																																			<Property Name="contentText">
+																																				<Value Value="Southwest" />
+																																			</Property>
+																																			<Property Name="ObjectIdentifier">
+																																				<Value Value="1" Type="0" />
+																																			</Property>
+																																		</Properties>
+																																	</Child>
+																																</Children>
+																															</Child>
+																														</Children>
+																													</Child>
+																													<Child Name="panel2" Key="{4557AE41-6288-44EB-96E6-E6E1B049E2F9}" ExtendedFind="True">
+																														<Image FileName="190470224" Left="1671" Top="235" Right="1882" Bottom="353" />
+																														<Properties>
+																															<Property Name="ObjectType">
+																																<Value Value="Panel" />
+																															</Property>
+																															<Property Name="contentText">
+																																<Value Value="Southeast" />
+																															</Property>
+																														</Properties>
+																														<Children>
+																															<Child Name="panel" Key="{C0F10343-15BC-4D7D-BC80-BAD47D42F2C7}" ExtendedFind="True">
+																																<Image FileName="190470224" Left="1671" Top="235" Right="1882" Bottom="353" />
+																																<TypeInfo Item0="{6BC989A7-3F64-405A-A7E4-BB251B50E79D}" />
+																																<Properties>
+																																	<Property Name="ObjectType">
+																																		<Value Value="Panel" />
+																																	</Property>
+																																	<Property Name="ObjectIdentifier">
+																																		<Value Value="0" Type="0" />
+																																	</Property>
+																																</Properties>
+																															</Child>
+																														</Children>
+																													</Child>
+																												</Children>
+																											</Child>
+																											<Child Name="panel2" Key="{5E251A03-64BB-4177-91BC-4F8206E6BFD1}" ExtendedFind="True">
+																												<Image FileName="-2031522769" Left="1768" Top="277" Right="1812" Bottom="323" />
+																												<TypeInfo Item0="{6BC989A7-3F64-405A-A7E4-BB251B50E79D}" />
+																												<Properties>
+																													<Property Name="ObjectType">
+																														<Value Value="Panel" />
+																													</Property>
+																													<Property Name="ObjectIdentifier">
+																														<Value Value="2" Type="0" />
+																													</Property>
+																												</Properties>
+																											</Child>
+																										</Children>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																					<Child Name="panel2" Key="{A2C0B7B4-7FFC-4E6D-8526-F336328711F5}">
+																						<Image FileName="-1418124173" Left="732" Top="379" Right="1812" Bottom="411" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="Panel" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="1" Type="0" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="panel" Key="{54E61197-99EA-47A1-8527-74CBF77CAC53}">
+																								<Image FileName="-1418124173" Left="732" Top="379" Right="1812" Bottom="395" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="Panel" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value Value="0" Type="0" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="panel" Key="{F52B04C5-6344-4FE0-A70F-0F287E666AEB}" ExtendedFind="True">
+																										<Image FileName="-1418124173" Left="732" Top="379" Right="1812" Bottom="395" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="Panel" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="panel" Key="{10270C04-2BFD-4E85-9B25-2985379B13BD}" ExtendedFind="True">
+																												<Image FileName="-1418124173" Left="732" Top="379" Right="1812" Bottom="395" />
+																												<TypeInfo Item0="{6BC989A7-3F64-405A-A7E4-BB251B50E79D}" />
+																												<Properties>
+																													<Property Name="ObjectType">
+																														<Value Value="Panel" />
+																													</Property>
+																													<Property Name="contentText">
+																														<Value Value="Themes" />
+																													</Property>
+																												</Properties>
+																											</Child>
+																										</Children>
+																									</Child>
+																								</Children>
+																							</Child>
+																							<Child Name="panel2" Key="{ED9AF9DB-A864-4A6F-8D8B-DDE3BBDA302C}" ExtendedFind="True">
+																								<Image FileName="1159158067" Left="732" Top="283" Right="1812" Bottom="319" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="Panel" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value Value="1" Type="0" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="panel" Key="{7604EBD1-46F9-406C-B53A-739B3F39CC47}" ExtendedFind="True">
+																										<Image FileName="1159158067" Left="732" Top="283" Right="1812" Bottom="319" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="Panel" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="panel" Key="{161CDE61-57EF-4202-99AC-026876D8A59C}" ExtendedFind="True">
+																												<Image FileName="1159158067" Left="732" Top="283" Right="1812" Bottom="319" />
+																												<Properties>
+																													<Property Name="ObjectType">
+																														<Value Value="Panel" />
+																													</Property>
+																													<Property Name="ObjectIdentifier">
+																														<Value Value="0" Type="0" />
+																													</Property>
+																												</Properties>
+																												<Children>
+																													<Child Name="panel" Key="{B1536156-9B81-45FA-BBA4-DEB9029F4004}" ExtendedFind="True">
+																														<Image FileName="1159158067" Left="732" Top="283" Right="943" Bottom="319" />
+																														<Properties>
+																															<Property Name="ObjectType">
+																																<Value Value="Panel" />
+																															</Property>
+																															<Property Name="ObjectIdentifier">
+																																<Value Value="0" Type="0" />
+																															</Property>
+																														</Properties>
+																														<Children>
+																															<Child Name="link" Key="{0FD9BCEC-06E3-4B2D-A3CF-706DF6F53963}" ExtendedFind="True">
+																																<Image FileName="1159158067" Left="732" Top="283" Right="943" Bottom="319" />
+																																<Properties>
+																																	<Property Name="ObjectType">
+																																		<Value Value="Link" />
+																																	</Property>
+																																</Properties>
+																																<Children>
+																																	<Child Name="panel" Key="{4D29054B-A01D-4A7E-8C4C-1D79662BD893}" ExtendedFind="True">
+																																		<Image FileName="1159158067" Left="732" Top="283" Right="943" Bottom="319" />
+																																		<Properties>
+																																			<Property Name="ObjectType">
+																																				<Value Value="Panel" />
+																																			</Property>
+																																		</Properties>
+																																		<Children>
+																																			<Child Name="panel" Key="{3EF08702-D20A-40B1-BF2B-05CE6B82B950}" ExtendedFind="True">
+																																				<Image FileName="1159158067" Left="732" Top="283" Right="943" Bottom="319" />
+																																				<TypeInfo Item0="{6BC989A7-3F64-405A-A7E4-BB251B50E79D}" />
+																																				<Properties>
+																																					<Property Name="ObjectType">
+																																						<Value Value="Panel" />
+																																					</Property>
+																																					<Property Name="contentText">
+																																						<Value Value="Romantic Getaways" />
+																																					</Property>
+																																				</Properties>
+																																			</Child>
+																																		</Children>
+																																	</Child>
+																																</Children>
+																															</Child>
+																														</Children>
+																													</Child>
+																													<Child Name="panel2" Key="{A4E9450D-DE57-48F1-A335-D2ABF917CD2F}" ExtendedFind="True">
+																														<Image FileName="1203154961" Left="966" Top="283" Right="1177" Bottom="319" />
+																														<Properties>
+																															<Property Name="ObjectType">
+																																<Value Value="Panel" />
+																															</Property>
+																															<Property Name="ObjectIdentifier">
+																																<Value Value="1" Type="0" />
+																															</Property>
+																														</Properties>
+																														<Children>
+																															<Child Name="link" Key="{25D4CB36-AEE9-484B-947D-6190565374D1}" ExtendedFind="True">
+																																<Image FileName="1203154961" Left="966" Top="283" Right="1177" Bottom="319" />
+																																<Properties>
+																																	<Property Name="ObjectType">
+																																		<Value Value="Link" />
+																																	</Property>
+																																</Properties>
+																																<Children>
+																																	<Child Name="panel" Key="{0540DB19-53F1-4831-9A16-087958A5F245}" ExtendedFind="True">
+																																		<Image FileName="1203154961" Left="966" Top="283" Right="1177" Bottom="319" />
+																																		<Properties>
+																																			<Property Name="ObjectType">
+																																				<Value Value="Panel" />
+																																			</Property>
+																																		</Properties>
+																																		<Children>
+																																			<Child Name="panel" Key="{06D327AC-AC60-4050-A351-21130C05B98E}" ExtendedFind="True">
+																																				<Image FileName="1203154961" Left="966" Top="283" Right="1177" Bottom="319" />
+																																				<TypeInfo Item0="{6BC989A7-3F64-405A-A7E4-BB251B50E79D}" />
+																																				<Properties>
+																																					<Property Name="ObjectType">
+																																						<Value Value="Panel" />
+																																					</Property>
+																																					<Property Name="contentText">
+																																						<Value Value="Family Vacations" />
+																																					</Property>
+																																				</Properties>
+																																			</Child>
+																																		</Children>
+																																	</Child>
+																																</Children>
+																															</Child>
+																														</Children>
+																													</Child>
+																													<Child Name="panel3" Key="{62117F28-31F1-4CEB-AA97-6E1FC661A319}" ExtendedFind="True">
+																														<Image FileName="-739280216" Left="1201" Top="283" Right="1412" Bottom="319" />
+																														<Properties>
+																															<Property Name="ObjectType">
+																																<Value Value="Panel" />
+																															</Property>
+																															<Property Name="ObjectIdentifier">
+																																<Value Value="2" Type="0" />
+																															</Property>
+																														</Properties>
+																														<Children>
+																															<Child Name="link" Key="{9544BE8C-8D71-4C27-BB68-8455AB307A2B}" ExtendedFind="True">
+																																<Image FileName="-739280216" Left="1201" Top="283" Right="1412" Bottom="319" />
+																																<Properties>
+																																	<Property Name="ObjectType">
+																																		<Value Value="Link" />
+																																	</Property>
+																																</Properties>
+																																<Children>
+																																	<Child Name="panel" Key="{6D0245FF-1680-4077-BA8C-8E7E826FB0FC}" ExtendedFind="True">
+																																		<Image FileName="-739280216" Left="1201" Top="283" Right="1412" Bottom="319" />
+																																		<Properties>
+																																			<Property Name="ObjectType">
+																																				<Value Value="Panel" />
+																																			</Property>
+																																		</Properties>
+																																		<Children>
+																																			<Child Name="panel" Key="{B949B8AC-50A7-47C4-BA04-A65BB8086945}" ExtendedFind="True">
+																																				<Image FileName="-739280216" Left="1201" Top="283" Right="1412" Bottom="319" />
+																																				<TypeInfo Item0="{6BC989A7-3F64-405A-A7E4-BB251B50E79D}" />
+																																				<Properties>
+																																					<Property Name="ObjectType">
+																																						<Value Value="Panel" />
+																																					</Property>
+																																					<Property Name="contentText">
+																																						<Value Value="Budget" />
+																																					</Property>
+																																				</Properties>
+																																			</Child>
+																																		</Children>
+																																	</Child>
+																																</Children>
+																															</Child>
+																														</Children>
+																													</Child>
+																												</Children>
+																											</Child>
+																										</Children>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="link" Key="{2C23A1D6-D7B8-49CE-A4BA-E09CC1EA1C74}" ExtendedFind="True">
+																<Image FileName="738961322" Left="1172" Top="107" Right="1372" Bottom="162" />
+																<TypeInfo Item0="{6BC989A7-3F64-405A-A7E4-BB251B50E79D}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Link" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panel" Key="{A8568E68-A473-4840-84EC-BCA6D3743E10}" ExtendedFind="True">
+																		<Image FileName="-1762344801" Left="732" Top="235" Right="943" Bottom="353" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Panel" />
+																			</Property>
+																			<Property Name="contentText">
+																				<Value Value="Northwest" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="panel" Key="{BD4F65CF-8DCA-474D-A6E4-76EC9A41A396}" ExtendedFind="True">
+																				<Image FileName="-1762344801" Left="732" Top="235" Right="943" Bottom="353" />
+																				<TypeInfo Item0="{6BC989A7-3F64-405A-A7E4-BB251B50E79D}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Panel" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="0" Type="0" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																	<Child Name="textnode" Key="{570BD585-2FF4-404E-BA50-7F4877F3C5C7}" ExtendedFind="True">
+																		<Image FileName="1935522525" Left="1016" Top="289" Right="1246" Bottom="318" />
+																		<TypeInfo Item0="{B54C1745-EB1F-40E5-AE76-DDC21E85C34C}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="TextNode" />
+																			</Property>
+																			<Property Name="contentText">
+																				<Value Value="Chicago" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="panel2" Key="{0382BDC8-7B92-4A33-B41F-5B35885AC2B6}" ExtendedFind="True">
+																<Image FileName="315269125" Left="1732" Top="123" Right="1757" Bottom="148" />
+																<TypeInfo Item0="{6BC989A7-3F64-405A-A7E4-BB251B50E79D}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="1" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="textbox" Key="{7C1F16E1-C315-4D0C-BD3C-5110C0684D1A}" ExtendedFind="True">
+																<Image FileName="1763574404" Left="748" Top="213" Right="1796" Bottom="265" />
+																<TypeInfo Item0="{8502917B-2AB4-4B22-99AF-320C038B1C70}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Textbox" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="panelApp" Key="{E68745F6-E725-4E05-B361-BDD62A38B85E}" ExtendedFind="True">
+										<Image FileName="1200487080" Left="0" Top="103" Right="2543" Bottom="4733" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="app" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panel" Key="{2745EFF9-F03F-45A9-BAB9-FCD3356BA550}" ExtendedFind="True">
+												<Image FileName="1200487080" Left="0" Top="103" Right="2543" Bottom="4251" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="2" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panel" Key="{76F01178-D63F-437F-9A13-EAF63A9B2900}" ExtendedFind="True">
+														<Image FileName="1200487080" Left="0" Top="103" Right="2543" Bottom="4251" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panel" Key="{C300A830-A069-47A6-AB40-9C77BB689B45}" ExtendedFind="True">
+																<Image FileName="1200487080" Left="0" Top="103" Right="2543" Bottom="4251" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panel" Key="{5A90A36A-B13A-4824-8911-D78C5F822420}">
+																		<Image FileName="1200487080" Left="0" Top="103" Right="2543" Bottom="1077" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Panel" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value Value="0" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="panel" Key="{315C87A7-7744-4334-B170-CDA18CEF71C4}" ExtendedFind="True">
+																				<Image FileName="1200487080" Left="0" Top="167" Right="2545" Bottom="239" />
+																				<TypeInfo Item0="{6BC989A7-3F64-405A-A7E4-BB251B50E79D}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Panel" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="0" Type="0" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="link" Key="{703CC33B-CEFF-454F-B89C-C6BAD81A3371}" ExtendedFind="True">
+												<Image FileName="1056615278" Left="732" Top="765" Right="780" Bottom="781" />
+												<TypeInfo Item0="{6BC989A7-3F64-405A-A7E4-BB251B50E79D}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Link" />
+													</Property>
+													<Property Name="contentText">
+														<Value Value="Contact" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageMagazineTrivagoComDestinatio" Key="{615ECDE3-9AE7-48F1-9B48-C66BCA598C6B}">
+								<Image FileName="1380220656" Left="0" Top="103" Right="2560" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://magazine.trivago.com/destination/northwest/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{F366CF86-E2EB-45CB-9281-3118C77B1E79}" ExtendedFind="True">
+										<Image FileName="-811386862" Left="0" Top="103" Right="2543" Bottom="167" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Header" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="header" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="link" Key="{CC0F9E43-4354-4505-83D0-2CEF426ABF3D}" ExtendedFind="True">
+												<Image FileName="-811386862" Left="1172" Top="107" Right="1372" Bottom="162" />
+												<TypeInfo Item0="{6BC989A7-3F64-405A-A7E4-BB251B50E79D}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Link" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="panelApp" Key="{07CCD7CF-5437-495C-BFD2-FA3DDBBCFE89}">
+										<Image FileName="-1582634171" Left="8" Top="111" Right="2551" Bottom="3764" />
+										<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="app" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panel" Key="{175F4605-7407-463E-9696-6307167BDD03}" ExtendedFind="True">
+												<Image FileName="-1582634171" Left="8" Top="-1713" Right="2551" Bottom="1458" />
+												<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="2" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panel" Key="{171D814C-8075-40EA-8B26-A14660AE9EB9}">
+														<Image FileName="-1582634171" Left="8" Top="-1713" Right="2551" Bottom="1394" />
+														<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panel" Key="{9AEC8C6B-F54E-495C-A774-B63377FAC7CD}">
+																<Image FileName="-1582634171" Left="8" Top="-1713" Right="2551" Bottom="1394" />
+																<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panel" Key="{BC7A5547-FE2A-496E-84D6-DB7ABA55A7D1}">
+																		<Image FileName="-1582634171" Left="8" Top="-1713" Right="2551" Bottom="-951" />
+																		<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Panel" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="textnode" Key="{8EA417EE-8A15-43A4-A1DE-27D334F695E0}" ExtendedFind="True">
+																				<Image FileName="-1582634171" Left="715" Top="-1002" Right="1455" Bottom="-923" />
+																				<TypeInfo Item0="{B54C1745-EB1F-40E5-AE76-DDC21E85C34C}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="TextNode" />
+																					</Property>
+																					<Property Name="contentText">
+																						<Value Value="Northwest" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageMagazineTrivagoComDestinatio2" Key="{8AB7BB6C-EB31-42DA-B7B6-3068B924A819}">
+								<Image FileName="1380220656" Left="0" Top="103" Right="2560" Bottom="1040" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://magazine.trivago.com/destination/southwest/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{EC56A6DF-C9AD-4565-B8D0-5E7FC2B58038}" ExtendedFind="True">
+										<Image FileName="-620989076" Left="0" Top="103" Right="2543" Bottom="167" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Header" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="header" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="link" Key="{2FC84FD1-37E7-416B-AD9C-FBCE0F379B0A}" ExtendedFind="True">
+												<Image FileName="-620989076" Left="1172" Top="107" Right="1372" Bottom="162" />
+												<TypeInfo Item0="{6BC989A7-3F64-405A-A7E4-BB251B50E79D}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Link" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="panelApp" Key="{5FDA65DC-0748-4480-A422-AB61EF4E44D1}">
+										<Image FileName="-347071977" Left="8" Top="-189" Right="2551" Bottom="3560" />
+										<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="app" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panel" Key="{D5AE753E-F09C-4897-8BAF-EF59B60B92A4}" ExtendedFind="True">
+												<Image FileName="-347071977" Left="8" Top="-1761" Right="2551" Bottom="1506" />
+												<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="2" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panel" Key="{42C99ACD-54A3-45EB-9286-B76114B514FA}">
+														<Image FileName="-347071977" Left="8" Top="-1761" Right="2551" Bottom="1442" />
+														<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panel" Key="{D229B0D9-3249-440C-8614-015DB041A5F7}">
+																<Image FileName="-347071977" Left="8" Top="-1761" Right="2551" Bottom="1442" />
+																<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panel" Key="{FC94CA9E-FA71-4004-99AF-4CE2E4AAB85D}">
+																		<Image FileName="-347071977" Left="8" Top="-1761" Right="2551" Bottom="-999" />
+																		<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Panel" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="textnode" Key="{9436E91C-4E47-4D13-8D12-EE202D82C951}" ExtendedFind="True">
+																				<Image FileName="-347071977" Left="715" Top="-1050" Right="1455" Bottom="-971" />
+																				<TypeInfo Item0="{B54C1745-EB1F-40E5-AE76-DDC21E85C34C}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="TextNode" />
+																					</Property>
+																					<Property Name="contentText">
+																						<Value Value="Southwest" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageMagazineTrivagoComDestinatio3" Key="{A046A698-3778-4E63-AA86-BEB645D99E19}">
+								<Image FileName="-2070729979" Left="8" Top="111" Right="2568" Bottom="1048" />
+								<TypeInfo Item0="{B5D376DC-727C-499D-AC9B-A7A6D7B8D839}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://magazine.trivago.com/destination/midwest/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelApp" Key="{34E7005F-8CF0-452A-B59E-030D0653C73D}">
+										<Image FileName="-2070729979" Left="8" Top="111" Right="2551" Bottom="3728" />
+										<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="app" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panel" Key="{38631FD9-E883-4240-B51A-76B4B04CD4EB}" ExtendedFind="True">
+												<Image FileName="-2070729979" Left="8" Top="111" Right="2551" Bottom="3246" />
+												<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="2" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panel" Key="{E9503C26-4659-410B-B47F-3CAC93368BD9}">
+														<Image FileName="-2070729979" Left="8" Top="111" Right="2551" Bottom="3182" />
+														<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panel" Key="{B2EE2488-B755-4B79-AE61-83E648AEAA54}">
+																<Image FileName="-2070729979" Left="8" Top="111" Right="2551" Bottom="3182" />
+																<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panel" Key="{8AEA8995-24F8-4F6E-9FD3-68DE7CB8A7BF}">
+																		<Image FileName="-2070729979" Left="8" Top="111" Right="2551" Bottom="873" />
+																		<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Panel" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="textnode" Key="{CEC52F99-5CDC-44C1-9865-24041640DB46}" ExtendedFind="True">
+																				<Image FileName="-2070729979" Left="715" Top="822" Right="1455" Bottom="901" />
+																				<TypeInfo Item0="{B54C1745-EB1F-40E5-AE76-DDC21E85C34C}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="TextNode" />
+																					</Property>
+																					<Property Name="contentText">
+																						<Value Value="Midwest" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageMagazineTrivagoComDestinatio4" Key="{EFB446AD-B04C-4D71-98F8-7811AFA42D19}">
+								<Image FileName="-2012279326" Left="8" Top="111" Right="2568" Bottom="1048" />
+								<TypeInfo Item0="{B5D376DC-727C-499D-AC9B-A7A6D7B8D839}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://magazine.trivago.com/destination/northeast/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelApp" Key="{D6C6C2EF-5C45-433D-A614-1807B54A6F5F}">
+										<Image FileName="-2012279326" Left="8" Top="111" Right="2551" Bottom="3740" />
+										<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="app" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panel" Key="{C71C9B5C-0027-4A6D-A8E9-695D033126A5}" ExtendedFind="True">
+												<Image FileName="-2012279326" Left="8" Top="111" Right="2551" Bottom="3258" />
+												<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="2" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panel" Key="{BFB11DE2-EE48-475A-A26C-DD63095A7B80}">
+														<Image FileName="-2012279326" Left="8" Top="111" Right="2551" Bottom="3194" />
+														<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panel" Key="{1BCAC9E9-6F6F-4E19-8847-6A2DFFCB9217}">
+																<Image FileName="-2012279326" Left="8" Top="111" Right="2551" Bottom="3194" />
+																<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panel" Key="{4B1D9448-6F0A-44DF-801F-3EE4D57A8EA5}">
+																		<Image FileName="-2012279326" Left="8" Top="111" Right="2551" Bottom="873" />
+																		<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Panel" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="textnode" Key="{49625FE4-B0DF-40A5-B6EB-890A6A6B2493}" ExtendedFind="True">
+																				<Image FileName="-2012279326" Left="715" Top="822" Right="1455" Bottom="901" />
+																				<TypeInfo Item0="{B54C1745-EB1F-40E5-AE76-DDC21E85C34C}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="TextNode" />
+																					</Property>
+																					<Property Name="contentText">
+																						<Value Value="Northeast" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageMagazineTrivagoComDestinatio5" Key="{C7ED174B-9DF3-4D96-A37E-05DD367500B0}">
+								<Image FileName="1285509602" Left="8" Top="111" Right="2568" Bottom="1048" />
+								<TypeInfo Item0="{B5D376DC-727C-499D-AC9B-A7A6D7B8D839}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://magazine.trivago.com/destination/southeast-us/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelApp" Key="{0930E739-45D9-425F-9883-695397889D4A}">
+										<Image FileName="1285509602" Left="8" Top="111" Right="2551" Bottom="3736" />
+										<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="app" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panel" Key="{D8CDE336-6CFC-4AEE-9A2A-730278703E44}" ExtendedFind="True">
+												<Image FileName="1285509602" Left="8" Top="111" Right="2551" Bottom="3254" />
+												<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="2" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panel" Key="{9A207C3B-EE97-4A67-8AA6-3FD339670855}">
+														<Image FileName="1285509602" Left="8" Top="111" Right="2551" Bottom="3190" />
+														<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panel" Key="{69A33FA5-4FAE-4A5A-8453-3A24F4B73724}">
+																<Image FileName="1285509602" Left="8" Top="111" Right="2551" Bottom="3190" />
+																<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panel" Key="{24ECEB0F-E65E-4FE5-8258-DBF60227A9F6}">
+																		<Image FileName="1285509602" Left="8" Top="111" Right="2551" Bottom="873" />
+																		<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Panel" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="textnode" Key="{04BAA7AB-AE8C-43A4-A02B-D833E6A022CF}" ExtendedFind="True">
+																				<Image FileName="1285509602" Left="715" Top="822" Right="1455" Bottom="901" />
+																				<TypeInfo Item0="{B54C1745-EB1F-40E5-AE76-DDC21E85C34C}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="TextNode" />
+																					</Property>
+																					<Property Name="contentText">
+																						<Value Value="Southeast" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageMagazineTrivagoComThemeRoman" Key="{AB4B9D8F-EADB-4D4C-8FED-E3A181F20F56}">
+								<Image FileName="767074311" Left="8" Top="111" Right="2568" Bottom="1048" />
+								<TypeInfo Item0="{B5D376DC-727C-499D-AC9B-A7A6D7B8D839}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://magazine.trivago.com/theme/romantic-getaways/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelApp" Key="{9F86AF03-D7FA-4119-A872-150285C46E6E}">
+										<Image FileName="767074311" Left="8" Top="-89" Right="2551" Bottom="5410" />
+										<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="app" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panel" Key="{0E76D624-7F1A-43B3-9CCB-D2C5C013C6DB}" ExtendedFind="True">
+												<Image FileName="767074311" Left="8" Top="-89" Right="2551" Bottom="4928" />
+												<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="2" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panel" Key="{4679509B-7BB8-46B7-993D-DF793297D4FE}">
+														<Image FileName="767074311" Left="8" Top="-89" Right="2551" Bottom="4928" />
+														<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panel" Key="{38237C7A-DF81-4951-B55D-BE7E6B762DFE}">
+																<Image FileName="767074311" Left="8" Top="-89" Right="2551" Bottom="4928" />
+																<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panel" Key="{C99E0C4B-E18C-4ECB-BB18-5869582D482A}">
+																		<Image FileName="767074311" Left="8" Top="-89" Right="2551" Bottom="673" />
+																		<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Panel" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="panel" Key="{34511662-D422-4607-95ED-BE7859AEC855}" ExtendedFind="True">
+																				<Image FileName="767074311" Left="8" Top="47" Right="2551" Bottom="666" />
+																				<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Panel" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="panel" Key="{96BD6F71-B70A-4004-B4BF-EAD450BFB24E}">
+																						<Image FileName="767074311" Left="8" Top="47" Right="2551" Bottom="47" />
+																						<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="Panel" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="0" Type="0" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="panel" Key="{765D580A-BF0B-4A40-A216-7E17D941DB76}" ExtendedFind="True">
+																								<Image FileName="767074311" Left="8" Top="47" Right="2551" Bottom="797" />
+																								<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="Panel" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value Value="1" Type="0" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="panel" Key="{31753CC6-F3E4-4B6C-B28F-C5ADBA6CA0E5}">
+																										<Image FileName="767074311" Left="720" Top="111" Right="1840" Bottom="733" />
+																										<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="Panel" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="panel" Key="{E86C21CF-B338-47BA-A649-04115BC927D6}">
+																												<Image FileName="767074311" Left="715" Top="590" Right="1455" Bottom="701" />
+																												<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+																												<Properties>
+																													<Property Name="ObjectType">
+																														<Value Value="Panel" />
+																													</Property>
+																												</Properties>
+																												<Children>
+																													<Child Name="textnode" Key="{C3314BDF-8A2C-4EAB-BC93-67CE2C350360}">
+																														<Image FileName="767074311" Left="715" Top="622" Right="1455" Bottom="701" />
+																														<TypeInfo Item0="{B54C1745-EB1F-40E5-AE76-DDC21E85C34C}" />
+																														<Properties>
+																															<Property Name="ObjectType">
+																																<Value Value="TextNode" />
+																															</Property>
+																															<Property Name="contentText">
+																																<Value Value="Romantic Getaways" />
+																															</Property>
+																														</Properties>
+																													</Child>
+																												</Children>
+																											</Child>
+																										</Children>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageMagazineTrivagoComThemeFamil" Key="{813E2A05-CF1E-4455-81A2-ADF513866E33}">
+								<Image FileName="884756027" Left="8" Top="111" Right="2568" Bottom="1048" />
+								<TypeInfo Item0="{B5D376DC-727C-499D-AC9B-A7A6D7B8D839}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://magazine.trivago.com/theme/family-vacations/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelApp" Key="{6A68BBBE-4CAF-44D2-B065-8BA6B180701A}">
+										<Image FileName="884756027" Left="8" Top="-189" Right="2551" Bottom="5281" />
+										<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="app" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panel" Key="{E4AD0C82-5523-4C13-8D42-C869DC63FED3}" ExtendedFind="True">
+												<Image FileName="884756027" Left="8" Top="-189" Right="2551" Bottom="4799" />
+												<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="2" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panel" Key="{88EE7C0E-DDF0-4B17-A922-5818F98F3BCD}">
+														<Image FileName="884756027" Left="8" Top="-189" Right="2551" Bottom="4799" />
+														<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panel" Key="{E47BAF0B-AB57-4AFF-A1D7-8595726192F9}">
+																<Image FileName="884756027" Left="8" Top="-189" Right="2551" Bottom="4799" />
+																<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panel" Key="{07C763CF-783A-4554-BA6A-77DA0A3AAFC1}">
+																		<Image FileName="884756027" Left="8" Top="-189" Right="2551" Bottom="573" />
+																		<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Panel" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="panel" Key="{4BC6A9DC-09AA-4B6A-8C2B-29B33D252071}" ExtendedFind="True">
+																				<Image FileName="884756027" Left="8" Top="-53" Right="2551" Bottom="566" />
+																				<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Panel" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value Value="1" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="panel" Key="{5075A98B-9224-4CEF-9AB8-B4C277839984}">
+																						<Image FileName="884756027" Left="8" Top="-53" Right="2551" Bottom="-53" />
+																						<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="Panel" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="0" Type="0" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="panel" Key="{8FAA3EFA-DEE6-43F7-B50D-EA8C430477F5}" ExtendedFind="True">
+																								<Image FileName="884756027" Left="8" Top="-53" Right="2551" Bottom="697" />
+																								<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="Panel" />
+																									</Property>
+																									<Property Name="ObjectIdentifier">
+																										<Value Value="1" Type="0" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="panel" Key="{4B53FD9A-5FBE-4FF5-BCDF-2F91ACB929CB}">
+																										<Image FileName="884756027" Left="720" Top="11" Right="1840" Bottom="633" />
+																										<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="Panel" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="panel" Key="{07B2BD57-C74A-4E36-A96D-B0325D8BB259}">
+																												<Image FileName="884756027" Left="715" Top="490" Right="1455" Bottom="601" />
+																												<TypeInfo Item0="{A8485322-A23E-4F60-8E2E-15C2490539D6}" />
+																												<Properties>
+																													<Property Name="ObjectType">
+																														<Value Value="Panel" />
+																													</Property>
+																												</Properties>
+																												<Children>
+																													<Child Name="textnode" Key="{78775457-B333-4065-AE84-C099D985BE43}">
+																														<Image FileName="884756027" Left="715" Top="522" Right="1455" Bottom="601" />
+																														<TypeInfo Item0="{B54C1745-EB1F-40E5-AE76-DDC21E85C34C}" />
+																														<Properties>
+																															<Property Name="ObjectType">
+																																<Value Value="TextNode" />
+																															</Property>
+																															<Property Name="contentText">
+																																<Value Value="Family Vacations" />
+																															</Property>
+																														</Properties>
+																													</Child>
+																												</Children>
+																											</Child>
+																										</Children>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageMagazineTrivagoComThemeBudge" Key="{D06B2127-CE19-4300-9939-2BDE8F22ED38}">
+								<Image FileName="772695631" Left="8" Top="111" Right="2568" Bottom="1048" />
+								<TypeInfo Item0="{B5D376DC-727C-499D-AC9B-A7A6D7B8D839}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://magazine.trivago.com/theme/budget/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnode" Key="{2550D2BB-B1F8-442F-AA0D-47E731221D72}" ExtendedFind="True">
+										<Image FileName="772695631" Left="740" Top="511" Right="1820" Bottom="566" />
+										<TypeInfo Item0="{B54C1745-EB1F-40E5-AE76-DDC21E85C34C}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="TextNode" />
+											</Property>
+											<Property Name="contentText">
+												<Value Value="Budget" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageTrivagoMagazine2" Key="{A529AAA0-A12F-49CA-9BE0-BF04DD2F26DA}">
+								<Image FileName="1088169722" Left="8" Top="111" Right="2568" Bottom="1048" />
+								<TypeInfo Item0="{B5D376DC-727C-499D-AC9B-A7A6D7B8D839}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://magazine.trivago.com.au/contact/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnode" Key="{5150975C-7A91-478F-8871-02BF238AB1F0}" ExtendedFind="True">
+										<Image FileName="1088169722" Left="748" Top="235" Right="1828" Bottom="301" />
+										<TypeInfo Item0="{B54C1745-EB1F-40E5-AE76-DDC21E85C34C}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="TextNode" />
+											</Property>
+											<Property Name="contentText">
+												<Value Value="Message Sent Successfully!" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="panel" Key="{844DAFDA-8CAE-4FD9-80CC-7A8049419939}" ExtendedFind="True">
+										<Image FileName="-357503507" Left="724" Top="267" Right="1820" Bottom="522" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="contentText">
+												<Value Value="Your Message" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="0" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="textarea" Key="{23CB29DC-803C-4952-AB4C-71C6B25EFF92}">
+												<Image FileName="-357503507" Left="732" Top="299" Right="1812" Bottom="507" />
+												<TypeInfo Item0="{6BC989A7-3F64-405A-A7E4-BB251B50E79D}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Textarea" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="textbox" Key="{A8E0CD8A-FFA0-4CD2-ADD0-DEFAC3081C8B}" ExtendedFind="True">
+										<Image FileName="1609362036" Left="732" Top="554" Right="1264" Bottom="598" />
+										<TypeInfo Item0="{8502917B-2AB4-4B22-99AF-320C038B1C70}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Textbox" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="0" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="textboxContactEmail" Key="{DD0B5B91-ABC4-4B60-AFE7-AAE5029324FA}" ExtendedFind="True">
+										<Image FileName="-7626763" Left="1280" Top="554" Right="1812" Bottom="598" />
+										<TypeInfo Item0="{8502917B-2AB4-4B22-99AF-320C038B1C70}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Textbox" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="contact-email" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="buttonSubmit" Key="{0F0B4351-C0A2-4BF2-998B-62152D0C2B29}" ExtendedFind="True">
+										<Image FileName="301217204" Left="732" Top="686" Right="820" Bottom="729" />
+										<TypeInfo Item0="{A23E0757-AB1D-42B1-9F11-DD89E893D987}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="contentText">
+												<Value Value="Submit" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="checkboxBySubmittingAMessageOnOu" Key="{5D9DB8E3-C07D-474F-BB3F-B55DED34F33C}" ExtendedFind="True">
+										<Image FileName="251291789" Left="736" Top="626" Right="749" Bottom="639" />
+										<TypeInfo Item0="{E1A0C178-FE95-4318-9E30-DC0EE03D0DCE}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Checkbox" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="confirm" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="textnode2" Key="{5278A00B-6168-42CC-859F-467624351733}" ExtendedFind="True">
+										<Image FileName="1009677705" Left="740" Top="227" Right="1820" Bottom="259" />
+										<TypeInfo Item0="{B54C1745-EB1F-40E5-AE76-DDC21E85C34C}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="TextNode" />
+											</Property>
+											<Property Name="contentText">
+												<Value Value="Please give us your feedback and tell us what you want to read about!" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="panel2" Key="{48B46025-B11A-4E2A-AE3A-26FC2A79A42B}" ExtendedFind="True">
+										<Image FileName="684752848" Left="724" Top="614" Right="1820" Bottom="654" />
+										<TypeInfo Item0="{6BC989A7-3F64-405A-A7E4-BB251B50E79D}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="contentText">
+												<Value Value="By submitting a message on our contact form you are sharing what you write with trivago." />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="ApplicationFrameHost" Key="{F373BCC1-124E-436A-90FD-CB98CB06D09F}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="ApplicationFrameHost" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wnd_" Key="{1A1FFAC6-7C09-4FCE-B10F-59EE0FCD89C2}">
+								<Image FileName="214644213" Left="0" Top="0" Right="888" Bottom="940" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="ApplicationFrameWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Параметры" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{5BCE0193-0333-4D3B-8B9E-F69332F1778E}">
+			<Child Name="pageTrivagoMagazine" Owner="{B72468B9-751F-4F85-B6EB-2FFB156B8389}">
+				<Child Name="header" Owner="{6190D655-CD45-41A2-BD04-0098A324A776}">
+					<Child Name="panel" Owner="{E2699883-A76A-4BA1-A345-A152B0AEA09C}">
+						<Child Name="textnode" Owner="{FC863C83-3D77-455C-BE44-6ADEDD8AD05A}" />
+					</Child>
+					<Child Name="panel2" Owner="{93C3C01B-D75A-43E7-AB9B-72E7137FAD6D}">
+						<Child Name="panel" Owner="{33681E45-C410-4DC9-B0EF-96C9C02FED76}" />
+					</Child>
+					<Child Name="panel22" Owner="{916DEFBD-74D6-4A26-9477-4942F0948EEE}" />
+					<Child Name="panel3" Owner="{8913E799-A375-4661-8C7F-35AA89152255}" />
+					<Child Name="link" Owner="{C0BA74D2-BE74-44FD-B942-1CFB44C5C90F}">
+						<Child Name="panel" Owner="{9CC5B1AC-6443-4B50-9831-EE1902E42393}" />
+					</Child>
+					<Child Name="panel4" Owner="{33CDEA56-AC58-4FD2-84EA-37454B503979}">
+						<Child Name="panel" Owner="{C0F10343-15BC-4D7D-BC80-BAD47D42F2C7}" />
+						<Child Name="panel2" Owner="{5E251A03-64BB-4177-91BC-4F8206E6BFD1}" />
+						<Child Name="panel3" Owner="{10270C04-2BFD-4E85-9B25-2985379B13BD}" />
+						<Child Name="link" Owner="{0FD9BCEC-06E3-4B2D-A3CF-706DF6F53963}">
+							<Child Name="panel" Owner="{3EF08702-D20A-40B1-BF2B-05CE6B82B950}" />
+						</Child>
+						<Child Name="link2" Owner="{25D4CB36-AEE9-484B-947D-6190565374D1}">
+							<Child Name="panel" Owner="{06D327AC-AC60-4050-A351-21130C05B98E}" />
+						</Child>
+						<Child Name="link3" Owner="{9544BE8C-8D71-4C27-BB68-8455AB307A2B}">
+							<Child Name="panel" Owner="{B949B8AC-50A7-47C4-BA04-A65BB8086945}" />
+						</Child>
+						<Child Name="link4" Owner="{2C23A1D6-D7B8-49CE-A4BA-E09CC1EA1C74}">
+							<Child Name="panel" Owner="{BD4F65CF-8DCA-474D-A6E4-76EC9A41A396}" />
+							<Child Name="textnode" Owner="{570BD585-2FF4-404E-BA50-7F4877F3C5C7}" />
+						</Child>
+						<Child Name="panel22" Owner="{0382BDC8-7B92-4A33-B41F-5B35885AC2B6}" />
+						<Child Name="textbox" Owner="{7C1F16E1-C315-4D0C-BD3C-5110C0684D1A}" />
+					</Child>
+				</Child>
+				<Child Name="panel" Owner="{315C87A7-7744-4334-B170-CDA18CEF71C4}" />
+				<Child Name="link" Owner="{703CC33B-CEFF-454F-B89C-C6BAD81A3371}" />
+			</Child>
+			<Child Name="pageMagazineTrivagoComDestinatio" Owner="{615ECDE3-9AE7-48F1-9B48-C66BCA598C6B}">
+				<Child Name="header" Owner="{F366CF86-E2EB-45CB-9281-3118C77B1E79}">
+					<Child Name="link" Owner="{CC0F9E43-4354-4505-83D0-2CEF426ABF3D}" />
+				</Child>
+				<Child Name="textnode" Owner="{8EA417EE-8A15-43A4-A1DE-27D334F695E0}" />
+			</Child>
+			<Child Name="pageMagazineTrivagoComDestinatio2" Owner="{8AB7BB6C-EB31-42DA-B7B6-3068B924A819}">
+				<Child Name="header" Owner="{EC56A6DF-C9AD-4565-B8D0-5E7FC2B58038}">
+					<Child Name="link" Owner="{2FC84FD1-37E7-416B-AD9C-FBCE0F379B0A}" />
+				</Child>
+				<Child Name="textnode" Owner="{9436E91C-4E47-4D13-8D12-EE202D82C951}" />
+			</Child>
+			<Child Name="pageMagazineTrivagoComDestinatio3" Owner="{A046A698-3778-4E63-AA86-BEB645D99E19}">
+				<Child Name="textnode" Owner="{CEC52F99-5CDC-44C1-9865-24041640DB46}" />
+			</Child>
+			<Child Name="pageMagazineTrivagoComDestinatio4" Owner="{EFB446AD-B04C-4D71-98F8-7811AFA42D19}">
+				<Child Name="textnode" Owner="{49625FE4-B0DF-40A5-B6EB-890A6A6B2493}" />
+			</Child>
+			<Child Name="pageMagazineTrivagoComDestinatio5" Owner="{C7ED174B-9DF3-4D96-A37E-05DD367500B0}">
+				<Child Name="textnode" Owner="{04BAA7AB-AE8C-43A4-A02B-D833E6A022CF}" />
+			</Child>
+			<Child Name="pageMagazineTrivagoComThemeRoman" Owner="{AB4B9D8F-EADB-4D4C-8FED-E3A181F20F56}">
+				<Child Name="textnode" Owner="{C3314BDF-8A2C-4EAB-BC93-67CE2C350360}" />
+			</Child>
+			<Child Name="pageMagazineTrivagoComThemeFamil" Owner="{813E2A05-CF1E-4455-81A2-ADF513866E33}">
+				<Child Name="textnode" Owner="{78775457-B333-4065-AE84-C099D985BE43}" />
+			</Child>
+			<Child Name="pageMagazineTrivagoComThemeBudge" Owner="{D06B2127-CE19-4300-9939-2BDE8F22ED38}">
+				<Child Name="textnode" Owner="{2550D2BB-B1F8-442F-AA0D-47E731221D72}" />
+			</Child>
+			<Child Name="pageTrivagoMagazine2" Owner="{A529AAA0-A12F-49CA-9BE0-BF04DD2F26DA}">
+				<Child Name="textnode" Owner="{5150975C-7A91-478F-8871-02BF238AB1F0}" />
+				<Child Name="textarea" Owner="{23CB29DC-803C-4952-AB4C-71C6B25EFF92}" />
+				<Child Name="textbox" Owner="{A8E0CD8A-FFA0-4CD2-ADD0-DEFAC3081C8B}" />
+				<Child Name="textboxContactEmail" Owner="{DD0B5B91-ABC4-4B60-AFE7-AAE5029324FA}" />
+				<Child Name="buttonSubmit" Owner="{0F0B4351-C0A2-4BF2-998B-62152D0C2B29}" />
+				<Child Name="checkboxBySubmittingAMessageOnOu" Owner="{5D9DB8E3-C07D-474F-BB3F-B55DED34F33C}" />
+				<Child Name="textnode2" Owner="{5278A00B-6168-42CC-859F-467624351733}" />
+				<Child Name="panel2" Owner="{48B46025-B11A-4E2A-AE3A-26FC2A79A42B}" />
+			</Child>
+		</Child>
+		<Child Name="ApplicationFrameHost" Owner="{F373BCC1-124E-436A-90FD-CB98CB06D09F}">
+			<Child Name="wnd_" Owner="{1A1FFAC6-7C09-4FCE-B10F-59EE0FCD89C2}" />
+		</Child>
+	</LogicalNodes>
+</Root>

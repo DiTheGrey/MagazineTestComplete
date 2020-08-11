@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row1">
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="end time" type="D" value="44054.7071453704"/>
+				<Prp name="start time" type="D" value="44054.7070607755"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="name" type="S" value="Search form - 'Chicago' [Scenarios\Search Form - Chicago - Test search form for &quot;Chicago&quot;]"/>
+				<Prp name="details" type="S" value="{93ADDB9E-D9F3-4AD7-90C8-2B203471CECA}"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="end time" type="D" value="44054.7072303009"/>
+				<Prp name="start time" type="D" value="44054.7071453704"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="name" type="S" value="Drop down menu - Destinations - 'SouthWest' [Scenarios\Destinations - SouthWest - Test for Destinations menu - &quot;SouthWest&quot;]"/>
+				<Prp name="details" type="S" value="{A96C0606-C9AC-4785-82E6-FD48C392318E}"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="end time" type="D" value="44054.7070607755"/>
+				<Prp name="start time" type="D" value="44054.7069381134"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="name" type="S" value="Contact form - Submission [Scenarios\Contact Form - Test contact form]"/>
+				<Prp name="details" type="S" value="{F4749029-A25B-4E1C-AB0B-CDC41CE8E49D}"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

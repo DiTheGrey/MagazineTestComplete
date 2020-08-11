@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The script execution was interrupted."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The property checkpoint failed, because Text does not contain the substring (case-insensitive) &quot;Search&quot;. See Details for additional information."/>
+							</Node>
+						</Node>
+						<Prp name="duration" type="I" value="16268"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewAxADYAMwBCADcAQgA2ADEALQAzADEAMgBGAC0ANABCADIAMAAtAEEARAAyADkALQA0ADgANgA0AEMAMQBCADQANgBCAEMARgB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwAAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="starttime" type="D" value="44054.6972380903"/>
+						<Prp name="name" type="S" value="Test search form for &quot;Chicago&quot;"/>
+						<Prp name="durationwithoutchildren" type="I" value="16268"/>
+					</Node>
+				</Node>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="duration" type="I" value="16268"/>
+				<Prp name="failedtests" type="I" value="1"/>
+				<Prp name="starttime" type="D" value="44054.6972380903"/>
+				<Prp name="name" type="S" value="TrivagoMagazineTest"/>
+			</Node>
+		</Node>
+		<Prp name="testname" type="S" value="Test search form for &quot;Chicago&quot;"/>
+		<Prp name="key" type="S" value="{59747901-5464-40B6-AB84-A3B2C9E32B33}"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="host" type="S" value="DESKTOP-LTGDID3"/>
+		<Prp name="name" type="S" value="TrivagoMagazineTest"/>
+		<Prp name="stop" type="D" value="44054.6974286111"/>
+		<Prp name="user" type="S" value="DiTheGrey"/>
+		<Prp name="tests" type="I" value="1"/>
+		<Prp name="starttime" type="D" value="44054.6972344329"/>
+		<Prp name="failedtests" type="I" value="1"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+	</Node>
+</Nodes>

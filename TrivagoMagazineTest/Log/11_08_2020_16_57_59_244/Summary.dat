@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="durationwithoutchildren" type="I" value="10464"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBGADQANwA0ADkAMAAyADkALQBBADIANQBCAC0ANABFADEAQwAtAEEAQgAwAEIALQBDAEQAQwA0ADEAQwBFADgARQA0ADkARAB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwAAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="starttime" type="D" value="44054.7069394676"/>
+						<Prp name="duration" type="I" value="10464"/>
+						<Prp name="name" type="S" value="Test contact form"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="durationwithoutchildren" type="I" value="7306"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBBADkANgBDADAANgAwADYALQBDADkAQQBDAC0ANAA3ADgANQAtADgAMgBFADYALQBGAEQANAA4AEMAMwA5ADIAMwAxADgARQB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwAAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="starttime" type="D" value="44054.707145544"/>
+						<Prp name="duration" type="I" value="7306"/>
+						<Prp name="name" type="S" value="Test for Destinations menu - &quot;SouthWest&quot;"/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="durationwithoutchildren" type="I" value="7278"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA5ADMAQQBEAEQAQgA5AEUALQBEADkARgAzAC0ANABBAEQANwAtADkAMABDADgALQAyAEIAMgAwADMANAA3ADEAQwBFAEMAQQB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwAAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="starttime" type="D" value="44054.7070609491"/>
+						<Prp name="duration" type="I" value="7278"/>
+						<Prp name="name" type="S" value="Test search form for &quot;Chicago&quot;"/>
+					</Node>
+				</Node>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="failedtests" type="I" value="0"/>
+				<Prp name="name" type="S" value="TrivagoMagazineTest"/>
+				<Prp name="starttime" type="D" value="44054.7069394676"/>
+				<Prp name="duration" type="I" value="25048"/>
+			</Node>
+		</Node>
+		<Prp name="key" type="S" value="{F0BC58E4-05D0-4AAA-9D29-29BBE1CBE0B4}"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="executionstatus" type="I" value="0"/>
+		<Prp name="stop" type="D" value="44054.7072309259"/>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="testname" type="S" value="TrivagoMagazineTest"/>
+		<Prp name="user" type="S" value="DiTheGrey"/>
+		<Prp name="name" type="S" value="TrivagoMagazineTest"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="tests" type="I" value="3"/>
+		<Prp name="starttime" type="D" value="44054.7069380787"/>
+		<Prp name="host" type="S" value="DESKTOP-LTGDID3"/>
+	</Node>
+</Nodes>

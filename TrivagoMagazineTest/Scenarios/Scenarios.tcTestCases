@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scenarios>
+	<Feature Path="Contact Form.feature" />
+	<Feature Path="Search Form - Chicago.feature" />
+	<Feature Path="Destinations - SouthWest.feature" />
+</Scenarios>
