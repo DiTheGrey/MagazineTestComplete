@@ -9,12 +9,15 @@
 ### How to run:
 
 Open Chrome with extesion installed
+
 Open TrivagoMagazineTest.pjs file within TestComplete and press F5 to run
 
 ### Design
 
 Test cases was designed using Grok
+
 Scripts can be found in 'Script/StepDefinitions.js'
+
 Scenarios in 'Scenarios' folder
 
 
